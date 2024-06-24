@@ -5,9 +5,7 @@ channel = connection.channel()
 
 channel.queue_declare(queue='points_queue')
 
-customer_points_data = {"customer_id": 1, "program_id": 1,
-                        "transaction_type":"EARN", "points": 10,
-                        "purchase_amount": 50}
+customer_points_data = {"customer_id": 1, "transaction_type":"EARN", "points": 10}
 
 channel.basic_publish(exchange='',
                       routing_key='points_queue',
