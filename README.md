@@ -1,4 +1,4 @@
-# rabbitmq-hello-world
+# rabbitmq-app
 A simple app to use RabbitMQ. The points-stream folder has one file to send messages to another file that saves the changes from these messages in the database. These files send and receive messages to update a customer's points.
 
 ## Development
