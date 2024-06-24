@@ -1,7 +1,7 @@
 # rabbitmq-hello-world
-A simple app to use RabbitMQ. The points-stream folder has one file to send messages to another file that saves the changes from these messages in the database.
+A simple app to use RabbitMQ. The points-stream folder has one file to send messages to another file that saves the changes from these messages in the database. These files send and receive messages to update a customer's points.
 
-Development
+## Development
 Install Postgres
 ```
 brew install postgresql@15
