@@ -27,4 +27,9 @@ Install backend dependencies
 pip3 install -r requirements.txt
 ```
 
+Enable the RabbitMQ stream plugin
+```
+rabbitmq-plugins enable rabbitmq_stream 
+```
+
 References: [RabbitMQ documentation tutorials](https://www.rabbitmq.com/tutorials) and [YouTube course: Python Microservices Full Course - Event-Driven Architecture with RabbitMQ](https://www.youtube.com/watch?v=ddrucr_aAzA)
